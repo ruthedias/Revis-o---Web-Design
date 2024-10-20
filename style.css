@@ -111,6 +111,7 @@ a{
     border-radius: 5px;
     margin: 5px;
     margin-bottom: 10px;
+    position: relative;
 }
 .img-card{
     width: 240px;
@@ -154,6 +155,106 @@ a{
 }
 footer{
     width: 100%;
-    height: 494px;
+    height: 528px;
     background-color: #2668A2;
+    color: #FFFDF0;
+    font-size: 18px;
+    margin-top: 60px;
+    
+}
+.button-card{
+    background-color: #346D9E;
+    width: 88px;
+    height: 21px;
+    color: #FFFDF0;
+    border-style: none;
+    font-size: 11px;
+    border-radius: 5px;
+    position: absolute;
+    top: 225px;
+    left: 74.5px;
+}
+.input-cadastro-footer{
+    width: 503px;
+    height: 44px;
+    background-color: #F4D9D2;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 200px;
+    
+}
+.text-input{
+    color: #CCAD6E;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 13px;
+}
+.button-cadastro-footer{
+    width: 159px;
+    height: 44px;
+    background-color: #CC876A;
+    border-style: none;
+    border-radius: 5px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    color: #FFFDF0;
+    font-size: 16px;
+}
+.text-cadastro{
+    color: #CC876A;
+    font-size: 16px;
+    margin: 0px;
+}
+h1, h2, p{
+    margin: 0px;
+}
+.top-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 55px;
+}
+.line-footer{
+    width: 1008px;
+    margin: auto;
+    border: 1px solid #F4D9D2;
+    margin-top: 25px;
+    margin-bottom: 64px;
+}
+.icon-footer{
+    width: 28px;
+    height: 28px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.bottom-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 210px;
+    margin: 33px;
+}
+.title-column{
+    font-size: 20px;
+}
+.column-info{
+    font-size: 16px;
+}
+.formas-pagamento{
+    width: 290px;
+    height: 189px;
+}
+.footer-column{
+    margin: 34px;
+    margin-top: 0px;
+}
+.number-email{
+    display: flex;
+    flex-direction: row;
+}
+.text-logo-footer{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 34px;
 }
