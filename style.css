@@ -1,6 +1,17 @@
+@font-face {
+    font-family: 'Quilin';
+    src: url('fonts/Quilin_PersonalUse.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Postre';
+    src: url('fonts/demo-postre.otf') format('truetype');
+}
 body{
     background-color: #FFFDF0;
     margin: 0px;
+    padding: 0px;
+    font-family: 'Quilin' serif;
 }
 .top-header{
     width: 100%;
@@ -47,6 +58,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 15px;
+    font-family: 'Postre';
 }
 .header-login{
     display: flex;
@@ -99,14 +111,16 @@ a{
     color: #CC876A;
     text-align: center;
     margin: 30px;
+    font-family: 'Postre';
 }
 .catalog{
-    width: 100px;
+    width: 1000px;
     display: flex;
     flex-direction: row;
 }
 .card-catalog{
     width: 240px;
+    height: 387px;
     border: 2px solid #DEDEDE;
     border-radius: 5px;
     margin: 5px;
@@ -122,23 +136,30 @@ a{
     margin-top: 20px;
     font-size: 24px;
     color: #CC876A;
-    margin-bottom: 24px;
+    font-family: 'Postre';
 }
 .info-card{
     margin-left: 15px;
     color: #346D9E;
+    font-family: 'Postre' serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 18px;
 }
 .text-value{
     font-size: 24px;
     margin: 0px;
+    font-family: 'Postre' serif;
+    font-weight: bold;
 }
 .text-payment{
     font-size: 15px;
     margin: 0px;
-    margin-bottom: 20px;
+    font-family: 'Postre' serif;
+    font-weight: bold;
 }
 .catalog-center{
-    width: 1000px;
+    width: 1020px;
     margin: auto;
     padding: auto;
     display: block;
@@ -146,9 +167,8 @@ a{
 .card-two{
     width: 494px;
     height: 414px;
-    margin: 10px;
+    margin: 6px;
     margin-top: 64px;
-    margin-bottom: 64px;
 }
 .card{
     text-align: center;
@@ -160,6 +180,7 @@ footer{
     color: #FFFDF0;
     font-size: 18px;
     margin-top: 60px;
+    font-family: 'Postre' serif;
     
 }
 .button-card{
@@ -173,6 +194,7 @@ footer{
     position: absolute;
     top: 225px;
     left: 74.5px;
+    font-family: 'Postre';
 }
 .input-cadastro-footer{
     width: 503px;
@@ -202,9 +224,12 @@ footer{
     font-size: 16px;
 }
 .text-cadastro{
-    color: #CC876A;
-    font-size: 16px;
+    color: #CCAD6E;
+    font-size: 18px;
     margin: 0px;
+}
+.title-cadastro{
+    font-size: 22px;
 }
 h1, h2, p{
     margin: 0px;
@@ -240,6 +265,7 @@ h1, h2, p{
 }
 .column-info{
     font-size: 16px;
+    color:#CCAD6E;
 }
 .formas-pagamento{
     width: 290px;
